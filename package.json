@@ -1,7 +1,7 @@
 {
-  "name": "restore",
+  "name": "restores",
   "version": "1.0.0",
-  "description": "Describe restore here",
+  "description": "state management",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -21,8 +21,8 @@
   "devDependencies": {
     "nwb": "0.18.x"
   },
-  "author": "",
+  "author": "mcdyzg",
   "homepage": "",
   "license": "MIT",
-  "repository": ""
+  "repository": "https://github.com/mcdyzg/restores.git"
 }
