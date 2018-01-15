@@ -17,7 +17,7 @@ Object.defineProperty(_store,'_regist',{
                 value:function _update(obj){
                     let currentInitState = _store._initState && _store._initState[name]
                     // if(obj) {
-                        console.log('正在执行update',obj,_store[name]._listeners.length)
+                        // console.log('正在执行update',obj,_store[name]._listeners.length)
                         _store[name] = Object.assign(_store[name],currentInitState,obj)
                     // }else{
                     //
